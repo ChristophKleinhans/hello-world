@@ -34,6 +34,7 @@ rfvstamps = Time_stamps(self,
 ```
 In more Detail:
 
+### start_date and start_time
 For the start_date use a string in the form YYYYMMDD and at which time the timestamps should be obtained is defined by start_time in the form HHMMSS, f.i.:
 ```python
 start_date = '20190324', start_time = '080130' #Start at 8.30 o'clock and 30 seconds on March the 24th in the year 2019.
