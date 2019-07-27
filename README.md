@@ -40,5 +40,5 @@ start_date = '20190324', start_time = '080130' #Start at 8.30 o'clock and 30 sec
 ```
 For the end_date and end_time also use a string which must be a date after the start_date. Please note, that we need to use 24-hour days, f.i.:
 ```python
-end_date = '20190426', end_time = '235959' #End one second before midnight on April the 26th
+end_date = '20190426', end_time = '235959' #End one second before midnight on April the 26th.
 ```
