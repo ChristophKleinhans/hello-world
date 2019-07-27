@@ -53,5 +53,5 @@ period = 750 #A period of 12 minutes and 30 seconds to get a timestamp.
 The initial tolerance of 1 means, that exactelly the value of the period gets written into the .csv file. Better make a example:
 Let's say that the start_time is 8 o'clock and you want the timestamps in a period of 30 seconds.
 ```Python 
-period = 750 #A period of 12 minutes and 30 seconds to get a timestamp.
+p
 ```
