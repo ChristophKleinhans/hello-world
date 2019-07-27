@@ -20,5 +20,15 @@ The Time_stamps Class contains all the attributes for the creation of the the de
 
 ```python
 rfvstamps = Time_stamps(self,
-                        start_date)
+                        start_date,
+                        start_time,
+                        end_date,
+                        end_time,
+                        period = 1800,
+                        tolerance = 1,
+                        tolerance_required = False,
+                        timestamps_list = [],
+                        filesystem = 'CSV',
+                        filename = 'Timestamps_uncustomized',
+                        path = '')
 ```
