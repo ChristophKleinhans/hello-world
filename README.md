@@ -26,8 +26,7 @@ rfvstamps = Time_stamps(self,
                         end_time,
                         period = 1800,
                         tolerance = 1,
-                        tolerance_required = False,
-                        timestamps_list = [],
+                        tolerance_required = False,     
                         filesystem = 'CSV',
                         filename = 'Timestamps_uncustomized',
                         path = '')
@@ -47,6 +46,12 @@ end_date = '20190426', end_time = '235959' #End one second before midnight on Ap
 ### period
 Maybe you don't want all the timestamps between an end and start point. Maybe just all 50 seconds or 3600 seconds. Initally the period is 1800 seconds (a half hour). But if you it in an other periodically pattern, just define your custom period in seconds, f.i.
 
+```Python 
+period = 750 #A period of 12 minutes and 30 seconds to get a timestamp.
+```
+### tolerance
+The initial tolerance of 1 means, that exactelly the value of the period gets written into the .csv file. Better make a example:
+Let's say that the start_time is 8 o'clock and you want the timestamps in a period of 30 seconds.
 ```Python 
 period = 750 #A period of 12 minutes and 30 seconds to get a timestamp.
 ```
