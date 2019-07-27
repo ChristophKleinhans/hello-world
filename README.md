@@ -9,3 +9,16 @@ timestampsrfv is a Python library which writes RFV normed timestamps in a .csv f
 ```bash
 pip install timestampsrfv
 ```
+
+## Usage
+
+```python
+import timestampsrfv
+```
+
+The Time_stamps Class contains all the attributes for the creation of the the desired list.
+
+```python
+rfvstamps = Time_stamps(self,
+                        start_date)
+```
