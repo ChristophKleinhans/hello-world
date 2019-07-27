@@ -7,7 +7,7 @@ import pandas as pd
 
 class Time_stamps:
 
-	def __init__(self, start_date, start_time, end_date, end_time, period = 1800, tolerance = 1, tolerance_required = False, timestamps_list = [], filesystem = 'CSV', filename = 'Timestamps_uncustomized', path = ''):
+	def __init__(self, start_date, start_time, end_date, end_time, period = 1800, tolerance = 1, tolerance_required = False, filesystem = 'CSV', filename = 'Timestamps_uncustomized', path = ''):
 		self.start_date = start_date #yyyymmdd
 		self.start_time = start_time #hhmmss
 		self.end_date = end_date 
@@ -16,7 +16,6 @@ class Time_stamps:
 		self.tolerance = tolerance
 		#Default Arguments
 		self.tolerance_required = tolerance_required
-		self.timestamps_list = timestamps_list
 		self.filesystem = filesystem
 		self.filename = filename
 		self.path = path
