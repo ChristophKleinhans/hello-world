@@ -44,3 +44,9 @@ For the end_date and end_time also use a string which must be a date after the s
 ```python
 end_date = '20190426', end_time = '235959' #End one second before midnight on April the 26th.
 ```
+### period
+Maybe you don't want all the timestamps between an end and start point. Maybe just all 50 seconds or 3600 seconds. Initally the period is 1800 seconds (a half hour). But if you it in an other periodically pattern, just define your custom period in seconds, f.i.
+
+```Python 
+period = 750 #A period of 12 minutes and 30 seconds to get a timestamp.
+```
