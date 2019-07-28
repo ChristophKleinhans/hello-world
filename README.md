@@ -57,7 +57,7 @@ rfvstamps = timestampsrfv.Time_stamps('20190701', '080000', '20190701', '100000'
 rfvstamps.rfv()
 ```
 Now the first output is on 8.30 o'clock and with the tolerance of 6 we have 6 outputs by a min and max tolerance of 6/2.
-```Python 
+```console 
 2019-07-01T08:29:57
 2019-07-01T08:29:58
 2019-07-01T08:29:59
