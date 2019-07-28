@@ -130,7 +130,7 @@ class Time_stamps:
 	#-------------Writing the results---------------	
 	filesystem_dict = {'CSV': 1, 'HDF5': 2}	
 
-	def RFV(self): #The resulting RFV List saved in CSV or HDF5
+	def rfv(self): #The resulting RFV List saved in CSV or HDF5
 		filesystem_dict = {'CSV': 1, 'HDF5': 2}	
 		_rfv_basic_format = []
 		_rfv_formatted = []
