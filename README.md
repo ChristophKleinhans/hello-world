@@ -16,7 +16,7 @@ pip install timestampsrfv
 import timestampsrfv
 ```
 
-The Time_stamps Class contains all the attributes for the creation of the the desired list.
+The Time_stamps Class contains all the attributes for the creation of the the desired list. The rfv() method is then writing the demanded rfv timestamps into an .csv file
 
 ```python
 rfvstamps = Time_stamps(self,
@@ -50,8 +50,8 @@ Maybe you don't want all the timestamps between an end and start point. Maybe ju
 period = 750 #A period of 12 minutes and 30 seconds to get a timestamp.
 ```
 ### tolerance
-The initial tolerance of 1 means, that exactelly the value of the period gets written into the .csv file. Better make a example:
-Let's say that the start_time is 8 o'clock and you want the timestamps in a period of 30 seconds.
+The initial tolerance of 1 means, that exactelly the value of the period gets written into the .csv file. Better make an example:
+Let's say that the start_time is 8 o'clock and you want the timestamps in a period of 30 seconds till 10 o'clock. Additionaly you define a tolerance of 10:
 ```Python 
-p
+
 ```
