@@ -66,3 +66,4 @@ Now the first output is on 8.30 o'clock and with the tolerance of 6 we have 6 ou
 2019-07-01T08:30:02
 2019-07-01T08:30:03
 ```
+If you are willing to use tolerances, please make sure that you have set tolerance_required = True.
