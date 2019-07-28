@@ -51,7 +51,18 @@ period = 750 #A period of 12 minutes and 30 seconds to get a timestamp.
 ```
 ### tolerance
 The initial tolerance of 1 means, that exactelly the value of the period gets written into the .csv file. Better make an example:
-Let's say that the start_time is 8 o'clock and you want the timestamps in a period of 30 seconds till 10 o'clock. Additionaly you define a tolerance of 10:
+Let's say that the start_time is 8 o'clock and you want the timestamps in a period of 1800 seconds till 10 o'clock on the same day. Additionaly you define a tolerance of 10:
 ```Python 
-
+rfvstamps = timestampsrfv.Time_stamps('20190701', '080000', '20190701', '100000', period = 1800, tolerance = 6,tolerance_required = True)
+rfvstamps.rfv()
+```
+Now the first output is on 8.30 o'clock and with the tolerance of 6 we have 6 outputs by a min and max tolerance of 6/2.
+```Python 
+2019-07-01T08:29:57
+2019-07-01T08:29:58
+2019-07-01T08:29:59
+2019-07-01T08:30:00
+2019-07-01T08:30:01
+2019-07-01T08:30:02
+2019-07-01T08:30:03
 ```
